@@ -23,7 +23,7 @@ def create_core(base=10):
 
     symbols = VGroup()
 
-    for i in range(len(list_of_symbols)):
+    for i in range(base):
         symbols += Text(
             list_of_symbols[i]
             ).rotate(
